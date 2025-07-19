@@ -61,6 +61,12 @@ public class Dev {
     public void setConteudosConcluidos(Set<Conteudo> conteudosConcluidos) {
         this.conteudosConcluidos = conteudosConcluidos;
     }
+    
+    @Override
+    public String toString() {
+        return "Dev [nome=" + nome + ", conteudosInscritos=" + conteudosInscritos + ", conteudosConcluidos="
+                + conteudosConcluidos + "]";
+    }
 
     @Override
     public boolean equals(Object o) {
